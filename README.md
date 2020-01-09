@@ -1,4 +1,4 @@
- MTO——Multi-physics Topology Optimization
+ MTO——Multiphysics Topology Optimization
 =========================================
 Description
 -----------
