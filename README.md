@@ -12,9 +12,11 @@ Before running this solver, following softwares are needed.
 (c) **swak4Foam**  
 
 Parallel version of MMA written by Aage is also needed for updating the design variables (https://github.com/topopt/TopOpt_in_PETSc). We have changed this code to apply it in our solver. For simplicity, the C++ script have been compiled into a dynamic library (libMMA_yu.so), users should put this file in FOAM_USER_LIBBIN after installing OpenFOAM.  
+
 Run the solver
 --------------
  After finishing above works, users should run wmake in the src folder, and then run blockMesh and decomposePar in the app folder. Finally, the multi-physics topology optimization solver can run in the app folder by mpirun –n 16 MTO_solid –parallel, where 16 is the default number of cores for parallel computing.
+ 
 postplot
 --------
 After the optimization, users should run reconstructPar in the app folder and then run paraFoam to view the results with Paraview.  
