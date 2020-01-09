@@ -18,10 +18,14 @@ Parallel version of MMA written by Aage is also needed for updating the design v
 After the optimization, users should run reconstructPar in the app folder and then run paraFoam to view the results with Paraview.
 
 solid displacement problem-2D
+-----------------------------
 ![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/beam_2D.gif)
 solid displacement problem-3D
+-----------------------------
 ![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/beam_3D.gif)
 thermal-fluid problem-2D
+------------------------
 ![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/heatsink_2D.gif)
 thermal-fluid problem-3D
+------------------------
 ![image](https://github.com/Yuminghao-DLUT/MTO/blob/master/MTO/heatsink_3D.gif)
